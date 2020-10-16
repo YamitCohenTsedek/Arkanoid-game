@@ -1,0 +1,81 @@
+
+# Level 1
+
+level_name: Just 4 Fun
+ball_velocities:-60,550 -45,550 -30,550 -15,550 15,550 30,550 45,550 60,550
+background:image(background_images/plants.jpg)
+paddle_speed:800
+paddle_width:200
+block_definitions:definitions/fun_block_definitions.txt
+blocks_start_x:140
+blocks_start_y:60
+row_height:150
+num_blocks:4
+START_BLOCKS
+-f-----F
+-
+-h-----H
+
+
+END_BLOCKS
+END_LEVEL
+
+START_LEVEL
+
+# Level 2
+
+START_LEVEL
+
+level_name:Love is Fun
+ball_velocities:-120,490 -100,500 -75,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 75,500 100,500 120,490
+background:image(background_images/hearts.jpg)
+paddle_speed:650
+paddle_width:300
+block_definitions:definitions/fun_block_definitions.txt
+blocks_start_x:160
+blocks_start_y:80
+row_height:55
+num_blocks:33
+START_BLOCKS
+**l***l
+*lbl*lbl
+lbbblbbbl
+*lbbbbbl
+**lbbbl-
+***lbl
+****l
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+
+START_LEVEL
+level_name:Rainbow of Fun
+ball_velocities:-175,500 -150,500 -125,500 -100,500 -75,500 -60,500 -45,500 -30,500 -15,500 -5,490 0,500 5,490 15,500 30,500 45,500 60,500 75,500 100,500 125,500 150,500 175,500
+background:image(background_images/rainbow.jpg)
+paddle_speed:850
+paddle_width:300
+block_definitions:definitions/fun_block_definitions.txt
+blocks_start_x:75
+blocks_start_y:35
+row_height:25
+num_blocks:144
+START_BLOCKS
+****RRRRR
+***RRRRRRR
+**RRQQQQQRR
+**RRQQQQQRR
+*RRQQSSSQQRR
+*RQQSSSSSQQRR
+*RQSSTTTSSQRR
+RRQSTTTTTSQRR
+RQSTTUUUTTSQR
+RQSTUUUUUTSQR
+RQSTU***UTSQR
+RQSTU***UTSQR
+RQSTU***UTSQR
+RQSTU***UTSQR
+
+END_BLOCKS
+END_LEVEL

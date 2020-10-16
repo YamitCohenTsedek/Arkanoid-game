@@ -1,0 +1,19 @@
+# default values for blocks
+default height:100 width:100 hit_points:1
+
+# block definitions
+bdef symbol:R width:50 height:25 hit_points:5 fill-5:color(red) fill-4:color(RGB(255,128,0)) fill-3:color(yellow) fill-2:color(RGB(100,230,0)) fill:color(RGB(42,104,252))
+bdef symbol:Q width:50 height:25 hit_points:4 fill-4:color(RGB(255,128,0)) fill-3:color(yellow) fill-2:color(RGB(100,230,0)) fill:color(RGB(42,104,252))
+bdef symbol:S width:50 height:25 hit_points:3 fill-3:color(yellow) fill-2:color(RGB(100,230,0)) fill:color(RGB(42,104,252))
+bdef symbol:T width:50 height:25 hit_points:2 fill-2:color(RGB(100,230,0)) fill:color(RGB(42,104,252))
+bdef symbol:U width:50 height:25 hit_points:1 fill:color(RGB(42,104,252))
+bdef symbol:l width:50 height:55 hit_points:3 fill-3:color(red) fill-2:color(RGB(255,51,51)) fill-1:color(RGB(255,102,102))
+bdef symbol:b width:50 height:55 hit_points:3 fill-3:color(pink) fill-2:color(RGB(255,204,204)) fill-1:color(RGB(255,180,250))
+bdef symbol:f width:150 height:150 hit_points:4 fill:color(RGB(102,255,108)) fill-2:color(RGB(0,255,255)) fill-3:color(RGB(0,204,102)) fill-4:color(RGB(0,255,128))
+bdef symbol:F width:150 height:150 hit_points:4 fill-4:color(RGB(102,255,108)) fill:color(RGB(0,255,255)) fill-2:color(RGB(0,204,104)) fill-3:color(RGB(0,255,128))
+bdef symbol:h width:150 height:150 hit_points:4 fill-3:color(RGB(102,255,108)) fill-4:color(RGB(0,255,255)) fill:color(RGB(0,204,104)) fill-2:color(RGB(0,255,128))
+bdef symbol:H width:150 height:150 hit_points:4 fill-2:color(RGB(102,255,108)) fill-3:color(RGB(0,255,255)) fill-4:color(RGB(0,204,104)) fill:color(RGB(0,255,128))
+
+# spacers definitions
+sdef symbol:- width:30
+sdef symbol:* width:50

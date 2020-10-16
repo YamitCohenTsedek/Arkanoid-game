@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: Arkanoid
+Class-Path: biuoop-1.4.jar
+

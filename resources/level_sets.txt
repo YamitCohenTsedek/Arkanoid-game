@@ -1,0 +1,6 @@
+e:easy
+definitions/easy_level_definitions.txt
+f:fun
+definitions/fun_level_definitions.txt
+h:hard
+definitions/hard_level_definitions.txt
